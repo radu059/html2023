@@ -1,0 +1,14 @@
+div{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+
+    margin: 25px;
+    border: 5px rgb(255, 0, 0) solid;
+    padding: 10px 20px 15px 5px;
+
+    float: left;
+    text-align: center;
+    background-color: rgba(0, 84, 84, 0.426);
+    color: blueviolet;
+}
