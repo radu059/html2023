@@ -1,0 +1,18 @@
+body{
+    counter-reset: titlu;
+}
+
+
+
+h1{
+    counter-reset: subtitlu;
+    color: blue;
+}
+h3{
+    color: rebeccapurple;
+}
+
+h1::before {
+    counter-increment: titlu;
+    content: counter(titlu);
+}
